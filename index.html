@@ -14,13 +14,15 @@
 
 <body>
 
-    <h1>Play with card</h1>
+    <h1 class="text-center"> Play with card</h1>
 
     <div class="container">
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div class="d-flex">
+            <input id="input-value" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button onclick="searchButton()" class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+
+        <h2 id="error"></h2>
     </div>
 
 
